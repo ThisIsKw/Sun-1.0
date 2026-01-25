@@ -1006,10 +1006,10 @@ do
     
     Tabs.Murder:AddSlider("HitboxSize", {
         Title = "Hitbox Size",
-        Description = "Size of the hitbox (1-10)",
+        Description = "Size of the hitbox (1-50)",
         Default = 25,
         Min = 1,
-        Max = 10,
+        Max = 50,
         Rounding = 0,
         Callback = function(Value)
             hitboxConfig.size = Value
